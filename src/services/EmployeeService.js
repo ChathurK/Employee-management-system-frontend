@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'https://emp-mgt-backend-8e48308d2ee2.herokuapp.com/api/employees';
+const REST_API_BASE_URL = 'https://emp-mgt-backend-8e48308d2ee2.herokuapp.com';
 
 export const listEmployees = () => axios.get(REST_API_BASE_URL);
 
